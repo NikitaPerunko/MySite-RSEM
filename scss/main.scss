@@ -1,0 +1,21 @@
+@import "./title-page-blocks/header";
+@import "./title-page-blocks/home";
+@import "./title-page-blocks/offer";
+@import "./title-page-blocks/box";
+@import "./title-page-blocks/about";
+@import "./title-page-blocks/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 30px;
+}

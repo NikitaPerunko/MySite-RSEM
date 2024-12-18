@@ -1,0 +1,73 @@
+.main {
+
+    .home {
+        background-image: url("/img/title-page-imgs/backgrounds/background-01.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+        .home__container {
+            padding: 150px 0px;
+            display: flex;
+            justify-content: space-between;
+
+            .home__title {
+                max-width: 570px;
+
+                .home__head {
+                    color: white;
+                    font-size: 64px;
+                    font-weight: 700;
+                    word-break: break-all;
+                }
+                .home__sub-head {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 420px;
+                    height: 35px;
+                    color: white;
+                    font-weight: 700;
+                    background-color: #1F30D8;
+                    margin: 40px 0 40px 0;
+                }
+                .home__text {
+                    font-size: 20px;
+                    color: white;
+                    margin-bottom: 30px;
+                }
+                .home__button {
+                    background-color: #1F30D8;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    border-radius: 20px;
+                    padding: 30px 50px;
+                    cursor: pointer;
+
+                    .home__btn-text {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: white;
+                    }
+                }
+            }
+            .home__soc-med {
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+
+                .home__offer {
+                    writing-mode: vertical-rl;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+        }
+    }
+}

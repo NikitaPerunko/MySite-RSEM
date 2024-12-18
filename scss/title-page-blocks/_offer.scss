@@ -1,0 +1,93 @@
+.main {
+
+    .offer {
+        
+        .container {
+            max-width: 1350px;
+        }
+
+        .offer__container {
+            display: flex;
+            flex-wrap: wrap;
+            word-break: break-all;
+            padding: 20px 0px;
+            justify-content: space-between;
+
+            .offer__text-box {
+                max-width: 640px;
+                margin-left: 100px;
+                display: flex;
+                flex-wrap: wrap;
+
+                .offer__head {
+                    font-size: 64px;
+                    font-weight: 700;
+                    color: black;
+                    padding-bottom: 40px;
+                }
+                .offer__text {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: black;
+                    padding-bottom: 20px;
+                }
+                .offer__button {
+                    background-color: #1F30D8;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    border-radius: 20px;
+                    padding: 30px 30px;
+                    cursor: pointer;
+
+                    .offer__btn-text {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: white;
+                    }
+                }
+            }
+            .offer__mask-box {
+                max-width: 600px;
+                position: relative;
+                bottom: 70px;
+
+                .offer__mask {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .offer__statistic-box {
+                margin: 30px 0 0 100px;
+                
+                .offer__list {
+                    display: flex;
+                    list-style-type: none;
+                    gap: 30px;
+
+                    .offer__item {
+                        display: flex;
+                        flex-direction: column;
+                        background: #F9F9F9;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 5px;
+                        width: 270px;
+                        height: 130px;
+
+
+                        .offer__item-text {
+                            font-size: 64px;
+                            font-weight: 700;
+                            color: #313FC2;
+                        }
+                        .offer__item-sub-text {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
